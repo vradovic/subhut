@@ -1,0 +1,10 @@
+services:
+  subhut:
+    build: .
+    ports:
+      - "7000:7000"
+    environment:
+      PUBLIC_URL: ${PUBLIC_URL:-http://localhost:7000}
+    volumes:
+      - ./subtitles:/app/subtitles:ro
+    restart: unless-stopped
