@@ -27,6 +27,8 @@
   },
   "overrides": {
     "tmp": "^0.2.6",
-    "path-to-regexp@0.1.7": "0.1.13"
+    "stremio-addon-sdk": {
+      "path-to-regexp": "0.1.13"
+    }
   }
 }
